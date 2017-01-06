@@ -1,0 +1,46 @@
+{
+  "name": "skype-bot-configurator",
+  "productName": "SkypeBotConfigurator",
+  "version": "0.0.0",
+  "description": "My funkadelic app",
+  "license": "MIT",
+  "repository": "almirbi/skype-bot-configurator",
+  "author": {
+    "name": "Almir Bijedic",
+    "email": "almir.bij@gmail.com",
+    "url": "almirbijedic.rocks"
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . --out=dist --asar --overwrite --all"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "dependencies": {
+    "dialogs": "^1.1.16",
+    "electron-debug": "^1.0.0",
+    "vanilla-modal": "^1.3.0"
+  },
+  "devDependencies": {
+    "devtron": "^1.1.0",
+    "electron": "^1.3.3",
+    "electron-packager": "^8.0.0",
+    "fs-extra": "^1.0.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}

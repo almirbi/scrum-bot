@@ -1,0 +1,24 @@
+{
+  "name": "skype-1337-bot",
+  "version": "1.0.0",
+  "description": "A Skype bot. A 1337 Skype bot.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "skype",
+    "bot",
+    "builder",
+    "SDK"
+  ],
+  "author": "Almir Bijedic",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.4.4",
+    "restify": "^4.1.1"
+  },
+  "devDependencies": {
+    "fs-extra": "^1.0.0"
+  }
+}
